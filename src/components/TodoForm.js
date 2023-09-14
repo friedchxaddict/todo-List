@@ -36,6 +36,7 @@ const handleSubmit = e => {
             className='todo-input edit'
             onChange={handleChange}
             ref={inputRef}
+            autoComplete='off'
         />
         <button className='todo-button edit'>Update</button>
         </>
@@ -50,6 +51,7 @@ const handleSubmit = e => {
             className='todo-input'
             onChange={handleChange}
             ref={inputRef}
+            autoComplete='off'
         />
         <button className='todo-button'>Add todo</button>
         </>
